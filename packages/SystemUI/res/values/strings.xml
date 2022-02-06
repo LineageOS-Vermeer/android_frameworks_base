@@ -4051,4 +4051,6 @@
     <string name="qs_edit_mode_reset_dialog_content">
         All Quick Settings tiles will reset to the device’s original settings
     </string>
+    <!-- Label for UI element which allows to use lens on screenshot [CHAR LIMIT=30] -->
+    <string name="screenshot_lens_label">Lens</string>
 </resources>
