@@ -46,7 +46,7 @@ public final class EnhancedEstimatesImpl implements EnhancedEstimates {
 
     @Override
     public boolean isHybridNotificationEnabled() {
-        final boolean isTurboInstalled = Utils.isPackageInstalled(
+        final boolean isTurboInstalled = MiLahainaUtils.isPackageInstalled(
             mContext,
             "com.google.android.apps.turbo",
             false /* ignoreState */

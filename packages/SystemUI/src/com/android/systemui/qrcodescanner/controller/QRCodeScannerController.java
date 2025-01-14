@@ -313,7 +313,7 @@ public class QRCodeScannerController implements
             mQRCodeScannerActivity = qrCodeScannerActivity;
             mComponentName = componentName;
             mIntent = intent;
-        } else if (Utils. isPackageInstalled(mContext, GSA_PACKAGE, false) &&
+        } else if (MiLahainaUtils. isPackageInstalled(mContext, GSA_PACKAGE, false) &&
                 lensIntent != null && isActivityCallable(lensIntent)) {
             mQRCodeScannerActivity = LENS_ACTIVITY;
             mComponentName = lensIntent.getComponent();
